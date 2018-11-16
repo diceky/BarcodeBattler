@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/BarcodeBattler/precache-manifest.60665d3fa0beab86ece76975fd9d44a2.js"
+  "/BarcodeBattler/precache-manifest.8d1fa45a30e650bfeb2e18dc7a2e54d2.js"
 );
 
 workbox.clientsClaim();
