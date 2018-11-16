@@ -1,14 +1,14 @@
 {
-  "main.js": "/react-pages/static/js/main.1d784c2b.chunk.js",
-  "main.js.map": "/react-pages/static/js/main.1d784c2b.chunk.js.map",
-  "static/css/1.3b62a7f3.chunk.css": "/react-pages/static/css/1.3b62a7f3.chunk.css",
-  "static/js/1.9aed1d06.chunk.js": "/react-pages/static/js/1.9aed1d06.chunk.js",
-  "static/js/1.9aed1d06.chunk.js.map": "/react-pages/static/js/1.9aed1d06.chunk.js.map",
-  "runtime~main.js": "/react-pages/static/js/runtime~main.c9847d06.js",
-  "runtime~main.js.map": "/react-pages/static/js/runtime~main.c9847d06.js.map",
-  "static/media/index.css": "/react-pages/static/media/roboto-latin-900italic.bc833e72.woff",
-  "static/css/1.3b62a7f3.chunk.css.map": "/react-pages/static/css/1.3b62a7f3.chunk.css.map",
-  "index.html": "/react-pages/index.html",
-  "precache-manifest.5991446cfc5381aa6c8a58b315f5589b.js": "/react-pages/precache-manifest.5991446cfc5381aa6c8a58b315f5589b.js",
-  "service-worker.js": "/react-pages/service-worker.js"
+  "main.js": "/barcodebattler/static/js/main.bc199a4f.chunk.js",
+  "main.js.map": "/barcodebattler/static/js/main.bc199a4f.chunk.js.map",
+  "static/css/1.1d5a7aa6.chunk.css": "/barcodebattler/static/css/1.1d5a7aa6.chunk.css",
+  "static/js/1.fc4fca40.chunk.js": "/barcodebattler/static/js/1.fc4fca40.chunk.js",
+  "static/js/1.fc4fca40.chunk.js.map": "/barcodebattler/static/js/1.fc4fca40.chunk.js.map",
+  "runtime~main.js": "/barcodebattler/static/js/runtime~main.8418cdce.js",
+  "runtime~main.js.map": "/barcodebattler/static/js/runtime~main.8418cdce.js.map",
+  "static/media/index.css": "/barcodebattler/static/media/roboto-latin-900italic.bc833e72.woff",
+  "static/css/1.1d5a7aa6.chunk.css.map": "/barcodebattler/static/css/1.1d5a7aa6.chunk.css.map",
+  "index.html": "/barcodebattler/index.html",
+  "precache-manifest.dc4bc5f766868518d28a106662b8ebea.js": "/barcodebattler/precache-manifest.dc4bc5f766868518d28a106662b8ebea.js",
+  "service-worker.js": "/barcodebattler/service-worker.js"
 }
