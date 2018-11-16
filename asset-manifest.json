@@ -1,14 +1,14 @@
 {
-  "main.js": "/barcodebattler/static/js/main.bc199a4f.chunk.js",
-  "main.js.map": "/barcodebattler/static/js/main.bc199a4f.chunk.js.map",
-  "static/css/1.1d5a7aa6.chunk.css": "/barcodebattler/static/css/1.1d5a7aa6.chunk.css",
-  "static/js/1.fc4fca40.chunk.js": "/barcodebattler/static/js/1.fc4fca40.chunk.js",
-  "static/js/1.fc4fca40.chunk.js.map": "/barcodebattler/static/js/1.fc4fca40.chunk.js.map",
-  "runtime~main.js": "/barcodebattler/static/js/runtime~main.8418cdce.js",
-  "runtime~main.js.map": "/barcodebattler/static/js/runtime~main.8418cdce.js.map",
-  "static/media/index.css": "/barcodebattler/static/media/roboto-latin-900italic.bc833e72.woff",
-  "static/css/1.1d5a7aa6.chunk.css.map": "/barcodebattler/static/css/1.1d5a7aa6.chunk.css.map",
-  "index.html": "/barcodebattler/index.html",
-  "precache-manifest.dc4bc5f766868518d28a106662b8ebea.js": "/barcodebattler/precache-manifest.dc4bc5f766868518d28a106662b8ebea.js",
-  "service-worker.js": "/barcodebattler/service-worker.js"
+  "main.js": "/BarcodeBattler/static/js/main.4ba859d0.chunk.js",
+  "main.js.map": "/BarcodeBattler/static/js/main.4ba859d0.chunk.js.map",
+  "static/css/1.f50c8513.chunk.css": "/BarcodeBattler/static/css/1.f50c8513.chunk.css",
+  "static/js/1.ef2ba67c.chunk.js": "/BarcodeBattler/static/js/1.ef2ba67c.chunk.js",
+  "static/js/1.ef2ba67c.chunk.js.map": "/BarcodeBattler/static/js/1.ef2ba67c.chunk.js.map",
+  "runtime~main.js": "/BarcodeBattler/static/js/runtime~main.49088c5a.js",
+  "runtime~main.js.map": "/BarcodeBattler/static/js/runtime~main.49088c5a.js.map",
+  "static/media/index.css": "/BarcodeBattler/static/media/roboto-latin-900italic.bc833e72.woff",
+  "static/css/1.f50c8513.chunk.css.map": "/BarcodeBattler/static/css/1.f50c8513.chunk.css.map",
+  "index.html": "/BarcodeBattler/index.html",
+  "precache-manifest.60665d3fa0beab86ece76975fd9d44a2.js": "/BarcodeBattler/precache-manifest.60665d3fa0beab86ece76975fd9d44a2.js",
+  "service-worker.js": "/BarcodeBattler/service-worker.js"
 }

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/barcodebattler/precache-manifest.dc4bc5f766868518d28a106662b8ebea.js"
+  "/BarcodeBattler/precache-manifest.60665d3fa0beab86ece76975fd9d44a2.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/barcodebattler/index.html", {
+workbox.routing.registerNavigationRoute("/BarcodeBattler/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
