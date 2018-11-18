@@ -1,0 +1,26 @@
+#interactive {
+  width: 100vw;
+  height: 50vh;
+}
+#interactive video {
+  position: absolute;
+  top: 30;
+  left: 0;
+  width: 100vw;
+}
+#interactive .drawingBuffer {
+  position: absolute;
+  top: 30;
+  left: 0;
+  z-index: 100;
+  width: 100vw;
+}
+
+#scan-area{
+  width:100%;
+  margin: 10px auto;
+}
+
+.scanImg {
+  margin: 10px auto;
+}
