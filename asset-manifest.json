@@ -1,6 +1,6 @@
 {
-  "main.js": "/BarcodeBattler/static/js/main.28f46a7d.chunk.js",
-  "main.js.map": "/BarcodeBattler/static/js/main.28f46a7d.chunk.js.map",
+  "main.js": "/BarcodeBattler/static/js/main.f2cbcfa8.chunk.js",
+  "main.js.map": "/BarcodeBattler/static/js/main.f2cbcfa8.chunk.js.map",
   "static/css/1.ccb8ce16.chunk.css": "/BarcodeBattler/static/css/1.ccb8ce16.chunk.css",
   "static/js/1.e3c9a798.chunk.js": "/BarcodeBattler/static/js/1.e3c9a798.chunk.js",
   "static/js/1.e3c9a798.chunk.js.map": "/BarcodeBattler/static/js/1.e3c9a798.chunk.js.map",
@@ -9,6 +9,6 @@
   "static/media/index.css": "/BarcodeBattler/static/media/roboto-latin-900italic.bc833e72.woff",
   "static/css/1.ccb8ce16.chunk.css.map": "/BarcodeBattler/static/css/1.ccb8ce16.chunk.css.map",
   "index.html": "/BarcodeBattler/index.html",
-  "precache-manifest.2506797397819d2c93646a8b1879ed4d.js": "/BarcodeBattler/precache-manifest.2506797397819d2c93646a8b1879ed4d.js",
+  "precache-manifest.e097b90aafc3c71fd95073b2927c2e1d.js": "/BarcodeBattler/precache-manifest.e097b90aafc3c71fd95073b2927c2e1d.js",
   "service-worker.js": "/BarcodeBattler/service-worker.js"
 }
