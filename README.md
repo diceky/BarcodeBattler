@@ -1,5 +1,7 @@
 # Barcode Battler (2018 ver.)
 
+Live demo:https://daidaidais.github.io/BarcodeBattler/
+
 Barcode Battler is a legendary toy released in 1991 by [EPOCH](https://epoch.jp/).
 
 This is an attempt to recreate the Barcode Battler experience using React.js + [QuaggaJS](https://serratus.github.io/quaggaJS/) + Yahoo Shopping API.
