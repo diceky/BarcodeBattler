@@ -84,7 +84,8 @@ export default class Battle extends React.Component {
       code:[],
       review:[],
       hp:[],
-      attackTurn:0
+      attackTurn:0,
+      attacked:null
     };
     this.handleOpen=this.handleOpen.bind(this);
     this.handleClose=this.handleClose.bind(this);
@@ -139,7 +140,8 @@ export default class Battle extends React.Component {
     this.setState({
       hp:newHp,
       price:newPrice,
-      attackTurn:newTurn
+      attackTurn:newTurn,
+      attacked:newTurn
     })
     if(newHp[0]==0 || newHp[1]==0){
       setTimeout(() => {
@@ -172,11 +174,14 @@ export default class Battle extends React.Component {
     currentTurn==0 ? newTurn=1 : newTurn=0;
     this.setState({
       janTotal:newJanTotal,
-      attackTurn:newTurn
+      attackTurn:newTurn,
+      attacked:null
     })
   }
 
   render() {
+
+    const initialPrice=[this.props.stats1[0],this.props.stats2[0]];
 
     return (
       <div>
@@ -203,13 +208,13 @@ export default class Battle extends React.Component {
                       {this.state.name[0]}
                     </Typography>
                     </div>
-                    <div style={modalImage}>
-                      <img src={this.state.image[0]}/>
+                    <div style={modalImage} className={this.state.attacked==0 ? 'attacked': null}>
+                      <img src={this.state.image[0]} width="100%"/>
                     </div>
                     <Typography type='h6' color='inherit'>HP:{this.state.price[0]}</Typography>
                     <Typography type='h6' color='inherit'>DEF:{this.state.hits[0]}</Typography>
                     <LinearProgress variant="determinate" value={this.state.hp[0]} style={modalProgress}/>
-                    <Attack price={this.state.price} hp={this.state.hp} hits={this.state.hits} janTotal={this.state.janTotal} review={this.state.review} player={0} setHp={this.setHp} attackTurn={this.state.attackTurn} setPotion={this.setPotion}/>
+                    <Attack initialPrice={initialPrice} price={this.state.price} hp={this.state.hp} hits={this.state.hits} janTotal={this.state.janTotal} review={this.state.review} player={0} setHp={this.setHp} attackTurn={this.state.attackTurn} setPotion={this.setPotion}/>
                   </CardContent>
                 </Card>
               </Grid>
@@ -221,13 +226,13 @@ export default class Battle extends React.Component {
                       {this.state.name[1]}
                     </Typography>
                     </div>
-                    <div style={modalImage}>
-                      <img src={this.state.image[1]}/>
+                    <div style={modalImage} className={this.state.attacked==1 ? 'attacked': null}>
+                      <img src={this.state.image[1]} width="100%"/>
                     </div>
                     <Typography type='h6' color='inherit'>HP:{this.state.price[1]}</Typography>
                     <Typography type='h6' color='inherit'>DEF:{this.state.hits[1]}</Typography>
                     <LinearProgress variant="determinate" value={this.state.hp[1]} style={modalProgress} />
-                    <Attack price={this.state.price} hp={this.state.hp} hits={this.state.hits} janTotal={this.state.janTotal} review={this.state.review} player={1} setHp={this.setHp} setWinner={this.setWinner} attackTurn={this.state.attackTurn} setPotion={this.setPotion}/>
+                    <Attack initialPrice={initialPrice} price={this.state.price} hp={this.state.hp} hits={this.state.hits} janTotal={this.state.janTotal} review={this.state.review} player={1} setHp={this.setHp} setWinner={this.setWinner} attackTurn={this.state.attackTurn} setPotion={this.setPotion}/>
                   </CardContent>
                 </Card>
               </Grid>

@@ -14,6 +14,9 @@ import Icon from '@material-ui/core/Icon'
 import Modal from '@material-ui/core/Modal';
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
+import grey from '@material-ui/core/colors/grey';
+
+const accent=grey[50];
 
 const scanBtn = {
   top: '0px',
@@ -33,7 +36,7 @@ const menuText = {
 const modalStyle = {
     position: 'absolute',
     padding: '30px',
-    transform: 'translate(0%, 10%)'
+    transform: 'translate(0%, 0%)'
   };
 
 const modalText = {
@@ -128,19 +131,23 @@ export default class App extends React.Component {
               aria-labelledby="help-modal-title"
               aria-describedby="help-modal-description"
               open={this.state.help}
+              onBackdropClick={this.closeModal}
               disableAutoFocus={true}
             >
               <div style={modalStyle}>
+                <div style={{textAlign:'right'}}>
+                  <Icon fontSize="large" onClick={this.closeModal} style={{color:'white'}}>close</Icon>
+                </div>
                 <Typography variant="h5" id="help-modal-title" style={modalText}>
                   What is Barcode Battler?
                 </Typography>
                 <Typography variant="subtitle1" id="help-modal-description" style={modalText} component="p">
-                  Barcode Battler is a battle game where players fight with existing products. Be it chewing gums, bicycles or vacuum machines, scan in any product via the camera using the barcodes (items which are not listed in Yahoo Shopping will not be eligible for the battle).
+                  Barcode Battler is a battle game where players fight with existing products. Be it chewing gums, bicycles or vacuum machines, scan in any product via the camera using the barcodes.
+                   (NOTE: items which are not listed in Yahoo Shopping will not be eligible for the battle).
                 </Typography>
                 <Typography variant="subtitle1" id="help-modal-description" style={modalText} component="p">
                   Join the adventure to find the strongest product in the market!
                 </Typography>
-                <Button variant='contained' color='default' onClick={this.closeModal} size='small'>Close</Button>
               </div>
             </Modal>
           </div>
@@ -164,8 +171,7 @@ export default class App extends React.Component {
     _onDetected1(result) {
         //this.setState({results: this.state.results.concat([result])});
         this.setState({
-          results1: [result],
-          scanned1:true
+          results1: [result]
         });
     };
 
@@ -185,14 +191,16 @@ export default class App extends React.Component {
           this.setState({
             scanning1: false,
             stats1:[price,hits,janTotal,image,review],
-            name1:name
+            name1:name,
+            scanned1:true
           });
         }
         else if(player==2&&this.state.scanning2!=false){
           this.setState({
             scanning2: false,
             stats2:[price,hits,janTotal,image,review],
-            name2:name
+            name2:name,
+            scanned2:true
           });
         }
     };

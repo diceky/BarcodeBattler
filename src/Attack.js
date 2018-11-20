@@ -37,7 +37,11 @@ export default class Attack extends React.Component {
     const enemyPriceBeforeAttack = this.props.price[enemy];
     let enemyPriceAfterAttack = enemyPriceBeforeAttack - attackValue;
     if(enemyPriceAfterAttack < 0) enemyPriceAfterAttack=0;
-    const enemyHp = enemyPriceAfterAttack / enemyPriceBeforeAttack * 100;
+    console.log('initialPrice:'+this.props.initialPrice[enemy]);
+    console.log('enemyPriceBeforeAttack:'+enemyPriceBeforeAttack);
+    console.log('enemyPriceAfterAttack:'+enemyPriceAfterAttack);
+    const enemyHp = enemyPriceAfterAttack / this.props.initialPrice[enemy] * 100;
+    console.log('enemyHp:'+enemyHp);
 
     //set state
     let newHp = this.props.hp;
