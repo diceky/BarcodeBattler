@@ -1,5 +1,7 @@
 # Barcode Battler (2018 ver.)
 
+![logo](https://www.daisukeyukita.com/image/work44.png)
+
 Live demo:https://daidaidais.github.io/BarcodeBattler/
 
 Barcode Battler is a legendary toy released in 1991 by [EPOCH](https://epoch.jp/).
