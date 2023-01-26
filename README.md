@@ -3,6 +3,7 @@
 ![logo](https://www.daisukeyukita.com/image/work44.png)
 
 ~~Live demo: https://daidaidais.github.io/BarcodeBattler/~~
+
 Live demo: https://diceky.github.io/barcodebattler2023/
 
 This is an outdated repo. A newer version is [here](https://github.com/diceky/barcodebattler2023).
